@@ -3,14 +3,27 @@ name = "gg1th-rag-agent-ex"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "chromadb>=1.5.9",
+    "docling-ibm-models>=4.0.3",
+    "docling-slim[format-pdf-docling]>=2.133.0",
     "faiss-cpu>=1.15.1",
+    "ipywidgets>=8.1.9",
     "jupyterlab>=4.6.4",
     "langchain>=1.4.3",
+    "langchain-chroma>=1.1.0",
     "langchain-community>=0.4.2",
+    "langchain-docling>=3.0.0",
     "langchain-openai>=1.6.7",
     "langchain-text-splitters>=1.1.2",
     "load-dotenv>=0.1.0",
+    "onnxruntime>=1.30.0",
+    "opencv-python-headless>=5.0.0.93",
     "pandas>=3.0.6",
     "pypdf>=6.19.0",
     "python-dotenv>=1.2.3",
+    "rank-bm25>=0.2.2",
+    "rapidocr>=3.9.1,<4",
+    "sentence-transformers>=6.1.0",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
 ]
