@@ -11,7 +11,10 @@ BASE_URL = os.getenv("LLM_BASE_URL")
 
 
 def llm_connect(
-    model: str, api_key: str = api_key, temperature: float = 0, max_tokens: int = 512
+    model: str = "gpt-4.1",
+    api_key: str = api_key,
+    temperature: float = 0,
+    max_tokens: int = 512,
 ):
     return ChatOpenAI(
         model=model,

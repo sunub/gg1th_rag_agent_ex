@@ -4,9 +4,12 @@ version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
     "chromadb>=1.5.9",
+    "docling>=2.134.0",
+    "docling-core[chunking-openai]>=2.99.0",
     "docling-ibm-models>=4.0.3",
     "docling-slim[format-pdf-docling]>=2.133.0",
     "faiss-cpu>=1.15.1",
+    "ipykernel>=7.4.0",
     "ipywidgets>=8.1.9",
     "jupyterlab>=4.6.4",
     "langchain>=1.4.3",
@@ -24,6 +27,7 @@ dependencies = [
     "rank-bm25>=0.2.2",
     "rapidocr>=3.9.1,<4",
     "sentence-transformers>=6.1.0",
+    "tiktoken>=0.12.0",
     "torch>=2.14.1",
     "torchvision>=0.29.1",
 ]
